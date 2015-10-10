@@ -1,0 +1,156 @@
+
+@font-face {
+    font-family: gobold;
+    src: url(../fonts/goboldUplow.woff);
+}
+
+@font-face {
+    font-family: gobold-thin;
+    src: url(../fonts/goboldThin.woff);
+}
+
+body{
+  background: #000;
+}
+
+input{
+  border-radius: 0;
+}
+
+form{
+  color: #fff;
+}
+
+.contest-container{
+  background-color: #000;
+  background-image: url(../img/container-bg.png);
+  background-position: center;
+  margin: 0 auto;
+}
+
+.heading{
+  font-family: gobold;
+  text-align: center;
+  padding-top: 20px;
+  color: #f58a1f;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.heading-span{
+  font-family: gobold-thin;
+  color: #fff;
+}
+
+.sub-heading{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.under-header{
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.prizes-list{
+  color: #fff;
+  list-style-type: none;
+  text-align: center;
+}
+
+.prizes-list li{
+  margin:10px;
+}
+
+.bullet{
+  color: #f58a1f;
+}
+
+.sales-form{
+  color: #fff;
+  margin-top: 20px;
+}
+
+.upload-btn{
+  background-color: #707070;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-centered{
+  margin: 0 auto;
+  float: none;
+}
+
+.submit{
+  font-family: gobold-thin;
+  background-color: #f58a1f;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  margin-left: 0px;
+  border-radius: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.submit:hover{
+  background-color: #fff;
+  color: #f58a1f;
+}
+
+.g42{
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.under-pistol{
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.legal-container{
+  background-color: #242424;
+  color: #fff;
+}
+
+.legal-container h1{
+  font-family: gobold-thin;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.legal-container p{
+  font-size: 10px;
+}
+
+.entryform{
+  margin-bottom: 100px;
+}
+
+.42profile{
+  margin-top: 50px;
+  bottom: 0;
+}
