@@ -118,6 +118,32 @@ form{
   color: #f58a1f;
 }
 
+.submit2{
+  font-family: gobold-thin;
+  background-color: #f58a1f;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  margin-left: 0px;
+  border-radius: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  box-shadow: 12px 10px 31px -9px rgba(0,0,0,0.75);
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.submit2:hover{
+  background-color: #fff;
+  color: #f58a1f;
+}
+
 .g42{
   margin: 0 auto;
   padding-top: 30px;
